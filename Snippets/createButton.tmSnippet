@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>var button$1 = Titanium.UI.createButton({
+    title:'${2:Button text}',
+    height: ${3:32},
+    width: ${4:120},
+    top: ${5:80}
+});
+${6:Titanium.UI.currentWindow}.add(button$1);${0: // For separate file or use win/view}</string>
+	<key>name</key>
+	<string>createButton</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>tib</string>
+	<key>uuid</key>
+	<string>4D43A094-369E-417A-85BC-F7777B1CB355</string>
+</dict>
+</plist>
