@@ -4,12 +4,12 @@
 <dict>
 	<key>content</key>
 	<string>var label$1 = Titanium.UI.createLabel({
-    color:'${2:#999}',
-    text:'${3:Label text}'${4:,
-    font:{fontSize:${5:20},fontFamily:'${6:Helvetica Neue}'\}}${7:,
-    height: ${8:32},
-    width: ${9:200}}${10:,
-    top: ${11:80}}
+  color:'${2:#999}',
+  text:'${3:Label text}'${4:,
+  font:{fontSize:${5:20},fontFamily:'${6:Helvetica Neue}'\}}${7:,
+  height: ${8:32},
+  width: ${9:200}}${10:,
+  top: ${11:80}}
 });
 ${12:Titanium.UI.currentWindow}.add(label$1);${0: // For separate file or use win/view}</string>
 	<key>name</key>

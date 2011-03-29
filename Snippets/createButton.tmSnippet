@@ -4,10 +4,10 @@
 <dict>
 	<key>content</key>
 	<string>var button$1 = Titanium.UI.createButton({
-    title:'${2:Button text}',
-    height: ${3:32},
-    width: ${4:120},
-    top: ${5:80}
+  title:'${2:Button text}',
+  height: ${3:32},
+  width: ${4:120},
+  top: ${5:80}
 });
 ${6:Titanium.UI.currentWindow}.add(button$1);${0: // For separate file or use win/view}</string>
 	<key>name</key>

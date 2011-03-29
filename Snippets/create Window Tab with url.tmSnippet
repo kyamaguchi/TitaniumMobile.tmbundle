@@ -4,14 +4,14 @@
 <dict>
 	<key>content</key>
 	<string>var win$1 = Titanium.UI.createWindow({
-    title:'${2:Window Title}',
-    backgroundColor:'${3:#000}'${4:,
-    url:'win$1.js'}
+  title:'${2:Window Title}',
+  backgroundColor:'${3:#000}'${4:,
+  url:'win$1.js'}
 });
 var tab$5 = Titanium.UI.createTab({
-    icon:'${6:KS_nav_ui.png}',
-    title:'${7:Tab Title}',
-    window:win$1
+  icon:'${6:KS_nav_ui.png}',
+  title:'${7:Tab Title}',
+  window:win$1
 });
 
 tabGroup.addTab(tab$5);${0: // move this line to a proper line}</string>
