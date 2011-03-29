@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>var win$1 = Titanium.UI.createWindow({
+    title:'${2:Window Title}',
+    backgroundColor:'${3:#000}'${4:,
+    url:'win$1.js'}
+});
+var tab$5 = Titanium.UI.createTab({
+    icon:'${6:KS_nav_ui.png}',
+    title:'${7:Tab Title}',
+    window:win$1
+});
+
+tabGroup.addTab(tab$5);${0: // move this line to a proper line}</string>
+	<key>name</key>
+	<string>create Window Tab with url</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>tiu</string>
+	<key>uuid</key>
+	<string>8EA6B614-8556-4BB8-93F9-4ED74BF3BE0B</string>
+</dict>
+</plist>
