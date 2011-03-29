@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>button$1.addEventListener('click', function(){
+    Titanium.UI.createAlertDialog({
+        title: '${2:Title}',
+        message: '${3:Message}'
+    }).show();
+});</string>
+	<key>name</key>
+	<string>event Click button</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>tibe</string>
+	<key>uuid</key>
+	<string>EB9EC3CD-5EFA-43B9-AFCA-66AB071AD684</string>
+</dict>
+</plist>
